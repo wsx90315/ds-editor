@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: 'index.ts',
       name: '@rex_huang/etita',
-      fileName: 'index',
+      fileName: 'index'
     },
     rollupOptions: {
       external: ['vue'],
@@ -16,10 +16,7 @@ export default defineConfig({
           vue: 'Vue'
         }
       }
-    },
+    }
   },
-  plugins: [
-    vue(),
-    dts({ rollupTypes: true })
-  ]
+  plugins: [vue(), dts({ rollupTypes: true })]
 });
