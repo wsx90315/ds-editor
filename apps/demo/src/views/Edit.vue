@@ -1,7 +1,15 @@
 <template>
-  <div class="layout_wrapper"></div>
+  <div class="layout_wrapper">
+    12312313
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
 
-<style lang="scss"></style>
+</script>
+
+<style lang="scss">
+.layout_wrapper {
+
+}
+</style>

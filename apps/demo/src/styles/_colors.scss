@@ -3,5 +3,9 @@ $primary_color: #6200ee;
 $white: #ffffff;
 $black: #000000;
 
+$grey: #e6e6e6;
+$grey-200: lighten($grey, 20%);
+$grey-400: lighten($grey, 10%);
+
 $red: #fe5000;
 $green: #007d8a;

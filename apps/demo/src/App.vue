@@ -1,22 +1,22 @@
 <template>
-  <router-view />
+  <HeaderBar />
+
+  <div class="content_wrapper">
+    <SideBar />
+    <RouterView />
+  </div>
 </template>
 
+<script setup>
+import HeaderBar from '@/components/Layout/HeaderBar.vue';
+import SideBar from '@/components/Layout/SideBar.vue';
+
+</script>
 <style lang="scss">
-html,
-body,
-#app {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-
-  * {
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  img {
-    pointer-events: none;
-  }
+.content_wrapper {
+  position: relative;
+  margin-top: 60px;
+  min-height: calc(100vh - 60px);
+  background: $grey-400;
 }
 </style>
